@@ -10,7 +10,7 @@ module.exports = {
         let categories = require('../categories')
         let commands = Array.from(require('../../index').commands)
         let helpemb = new MessageEmbed()
-            .setTitle('HubMod modules')
+            .setTitle('Bot modules')
             .setDescription('Type `' + prefix + 'help [module]` for info on the commands in each module.')
             .setAuthor(`Requested by ${message.author.tag}`, message.author.displayAvatarURL())
             .setTimestamp()
